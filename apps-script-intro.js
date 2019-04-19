@@ -17,6 +17,7 @@
  * create Google Map and place marker at address,
  * Email URL to static map to TEST_EMAIL_ADDR
  *
+ * @OnlyCurrentDoc
  * @see g.co.codelabs/apps-script-intro
  */
 function sendMap() {
