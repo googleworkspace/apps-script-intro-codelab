@@ -1,5 +1,5 @@
 /**
- * Copyright 2018 Google LLC
+ * Copyright 2018-2020 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,17 +12,11 @@
  * limitations under the License.
  */
 
-/**
- * Read address out of cell A1 in bound Google Sheet,
- * create Google Map and place marker at address,
- * Email URL to static map to TEST_EMAIL_ADDR
- *
- * @OnlyCurrentDoc
- * @see g.co.codelabs/apps-script-intro
- */
+/** @OnlyCurrentDoc */
 function sendMap() {
     var sheet = SpreadsheetApp.getActiveSheet();
-    var address = sheet.getRange("A1").getValue();
+    var address = sheet.getRange('A1').getValue();
     var map = Maps.newStaticMap().addMarker(address);
-    MailApp.sendEmail(TEST_EMAIL_ADDR, "Map", map.getMapUrl());
+    GmailApp.sendEmail('YOUR_EMAIL_ADDR', 'Map',
+            'See below.', {attachments:[map]});
 }
