@@ -1,6 +1,6 @@
 # Apps Script introductory codelab
 
-This codelab introduces developers to [Google Apps Script](https://developers.google.com/apps-script), our customized JavaScript-in-the-cloud application hosting platform which gives developers integrated access to G Suite, Google, and external services. Access it at <g.co/codelabs/apps-script-intro>.
+This codelab introduces developers to [Google Apps Script](https://developers.google.com/apps-script), our customized JavaScript-in-the-cloud application hosting platform which gives developers integrated access to G Suite, Google, and external services. Access it at <http://g.co/codelabs/apps-script-intro>.
 
 ## Prerequisites
 
@@ -21,5 +21,6 @@ If you're completely new to Apps Script, check out our [overview video](http://y
 - [Apps Script support channels](https://developers.google.com/apps-script/support)
 - [Apps Script community & mailing list](http://groups.google.com/group/google-apps-script-community)
 - [Stack Overflow](http://stackoverflow.com/questions/tagged/google-apps-script)
+- [Other Google codelabs](http://g.co/codelabs)
 
 If you've found an error in this sample, please file an issue. Patches are encouraged, and may be submitted by forking this project and submitting a pull request through GitHub. See [CONTRIBUTING](CONTRIBUTING.md) for more information.
